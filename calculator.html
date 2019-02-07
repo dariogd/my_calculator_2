@@ -4,12 +4,18 @@
 <script type="text/javascript">
 function cube() {
 var num = document.getElementById("n1");
-num.value = Math.pow(num.value, 3);
+	num.value = Math.pow(num.value, 3 );
 }
 
+function four(){
+var num = document.getElementById("n1);
+	num.value = Math.pow(num.value, 4);
+}
+
+
 function sin(){
- var num2 = document.getElementById("n1");
-	num2.value = Math.sin(num2.value);
+ var num = document.getElementById("n1");
+	num.value = Math.sin(num.value);
 }
  </script>
 </head>
@@ -18,8 +24,12 @@ function sin(){
 Number:
 <input type="text" id="n1">
 <p>
+<<<<<<< HEAD
 <button onclick="cube()"> x^3 </button>
 <button onclick="sin()"> sin </button>
+=======
+<button onclick="four()"> x^4 </button>
+>>>>>>> master
 </p>
 </body>
 </html>
